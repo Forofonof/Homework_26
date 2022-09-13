@@ -12,7 +12,7 @@
             Console.Write($"{numbers} ");
         }
 
-        Console.WriteLine("\nНасколько чисел хотите сдвинуть массив? 1-10");
+        Console.WriteLine("\nНасколько значений хотите сдвинуть массив?");
         int numbersShift = int.Parse(Console.ReadLine());
 
         for (int i = 0; i < numbersShift; i++)
